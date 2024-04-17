@@ -21,7 +21,7 @@ mongoose.connect(process.env.DB_URL)
 //API creation
 
 app.get("/",(req,res)=>{
-    res.send("hello world!")
+    res.send("Hello World!")
 })
 
 // IMAGE STORAGE ENGINE 
